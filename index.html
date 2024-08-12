@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<header>
+  <h1>Student Form</h1>
+</header>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style/style.css">
+  
+</head>
+
+<nav>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</nav>
+<body>
+  <fieldset class="fieldone">
+    <form action="http://127.0.0.1:3005/process_post" method="post">
+      First Name: <input type="text" name = "first_name"><br>
+      Last Name: <input type="text" name="last_name"> <br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="rather">Rather Not Say</option>
+    <option value="custom">Custom</option>
+    <option value="male" selected>Male</option>
+    </select>
+    <br>
+    <label for="year">Year Level: </label>
+    <select id="year" name="year">
+    <option value="fist">First</option>
+    <option value="second">Second</option>
+    <option value="third">Third</option>
+    <option value="fourth">Fourth</option>
+    <option value="first" selected>First</option>
+    </select>
+  <br>
+  Student Number: <input type="text" name="student_number"> 
+  <br>
+  Email:<input type="email" name="email">
+  <br>
+  <label for="transportation">Transportation:</label><br>
+  <input type="radio" id="vehicle" name="transportation" value="VEHICLE">
+    <label for="vehicle">Vehicle</label><br>
+    <input type="radio" id="Commute" name="transportation" value="COMMUTE">
+    <label for="commute">Commute</label><br>
+    <input type="radio" id="Service" name="transportation" value="Service">
+    <label for="service">Service</label>
+    <br>
+  
+  <br>
+  </fieldset>
+  <fieldset class="fieldtwo">
+    <label for="yourself">What can you say about yourself?:</label>
+    <br>
+    <textarea name="yourself" rows="10" cols="50">
+      
+      </textarea>
+      <br>
+      <input type="submit" value="Submit">
+  </form>
+  </fieldset>
+  
+  
+</body>

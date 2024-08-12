@@ -1,0 +1,31 @@
+html{
+    background-color: beige;
+  }
+  h1{
+  color: peru;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-display: none;
+}
+
+.fieldone,.fieldtwo{
+background-color:blanchedalmond;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 15px;
+
+}
+
+.fieldone{
+margin: 10px;
+}
+
+.fieldtwo{
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+}
